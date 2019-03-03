@@ -14,11 +14,3 @@ def fizz_buzz(x)
     x.to_s
   end
 end
-
-puts fizz_buzz(nil)
-puts fizz_buzz('a')
-puts fizz_buzz(0) # 0は全ての数で割り切れる、と思う
-puts fizz_buzz(1)
-puts fizz_buzz(6)
-puts fizz_buzz(10)
-puts fizz_buzz(15)
