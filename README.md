@@ -4,4 +4,8 @@
 ruby 2.4.1
 
 エディタ:
-Atom (code), MacDown (note)
+Atom (code)
+
+ノート:
+github wiki
+　👉 [ここ](https://github.com/naoki-k/Ruby-Cherry-Book/wiki)
