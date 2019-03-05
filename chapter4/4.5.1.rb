@@ -7,12 +7,12 @@ range.include?(5) # => true
 range2.include?(5) # => false
 
 # indexにも使える
-array = [1,2,3,4,5]
+array = [1, 2, 3, 4, 5]
 puts array[1..3] # => [2,3,4]
 
 # 範囲の判定をする
 x = 50
-(0...100).include?(x) # 0以上100未満か
+(0...100).cover?(x) # 0以上100未満か
 
 # case文で使う
 def cluster(age)

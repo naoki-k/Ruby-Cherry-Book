@@ -2,9 +2,9 @@
 # enum文もどきも追加
 
 module Country
-  Japan = 0.freeze
-  Us = 1.freeze
-  Italy = 2.freeze
+  Japan = 0
+  Us = 1
+  Italy = 2
 end
 
 def get_greeting_message(country)

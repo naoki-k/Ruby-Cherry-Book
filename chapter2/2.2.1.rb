@@ -12,7 +12,7 @@ puts(1.to_s)
 # nil
 nil.to_s
 puts(nil.to_s)
-puts("_"+nil.to_s+"_")
+puts('_' + nil.to_s + '_')
 # true
 true.to_s
 puts(true.to_s)
@@ -26,4 +26,4 @@ puts(/\d+/.to_s)
 # to_sメソッドの引数
 # 数値を16真数の文字列に変換する
 10.to_s 16
-puts(10.to_s 16)
+puts(10.to_s(16))

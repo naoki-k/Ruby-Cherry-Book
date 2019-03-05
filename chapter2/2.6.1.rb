@@ -6,7 +6,7 @@
 def add(a, b)
   a + b
 end
-puts add(1,2) # = 3
+puts add(1, 2) # = 3
 
 # 戻り値
 # 宣言時に書かない。returnも使わないのが普通
