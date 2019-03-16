@@ -2,9 +2,9 @@
 # 引数のデフォルト値
 
 module Country
-  Japan = 0.freeze
-  Us = 1.freeze
-  Italy = 2.freeze
+  Japan = 0
+  Us = 1
+  Italy = 2
 end
 
 def get_greeting_message(country = Country::Japan)
@@ -20,4 +20,4 @@ def get_greeting_message(country = Country::Japan)
   end
 end
 
-puts get_greeting_message()
+puts get_greeting_message

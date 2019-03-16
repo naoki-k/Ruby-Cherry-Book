@@ -14,8 +14,8 @@ puts('Hello')
 [1, 2, 3].to_s
 puts([1, 2, 3])
 # ハッシュ
-{'japan' => 'yen', 'us' => 'dollar', 'india' => 'rupee'}.to_s
-puts({'japan' => 'yen', 'us' => 'dollar', 'india' => 'rupee'})
+{ 'japan' => 'yen', 'us' => 'dollar', 'india' => 'rupee' }.to_s
+puts('japan' => 'yen', 'us' => 'dollar', 'india' => 'rupee')
 # 正規表現
 /\d+-\d+/.to_s
 puts(/\d+-\d+/)
